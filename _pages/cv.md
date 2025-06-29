@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "个人简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,61 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+教育背景
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 硕士研究生 - 华中科技大学计算机科学与技术学院 (在读)
+* 学士学位 - [本科学校] [专业] (年份)
 
-Work experience
+工作经历
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2024年至今: 研究生
+  * 华中科技大学计算机科学与技术学院
+  * 研究方向: [你的具体研究方向]
+  * 导师: [导师姓名]
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* [其他实习或工作经历]
+  * [机构名称]
+  * 工作内容: [具体工作描述]
+  * 主管: [主管姓名]
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+技能专长
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 编程语言
+  * Python, Java, C++, JavaScript
+  * [其他编程语言]
+* 技术栈
+  * 机器学习框架 (TensorFlow, PyTorch等)
+  * 数据库 (MySQL, MongoDB等)
+  * [其他技术]
+* 研究技能
+  * 算法设计与分析
+  * 数据挖掘与处理
+  * [其他技能]
 
-Publications
+学术论文
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+学术报告
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+教学经历
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+获奖情况
 ======
-* Currently signed in to 43 different slack teams
+* [获奖名称] - [颁发机构] (年份)
+* [获奖名称] - [颁发机构] (年份)
+
+项目经历
+======
+* [项目名称] - [项目描述] (年份)
+* [项目名称] - [项目描述] (年份)
